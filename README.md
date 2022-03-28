@@ -17,15 +17,18 @@ any changes in data, then views will get automatically updated
 
 ---------------------------------------------------------
 <data>
+    
         <variable
             name="quote"
             type="com.example.databinding.Quotes" />
+    
 </data>
 
 variable of name quote of type Quotes class i.e data class
 
 ---------------------------------------------------------
  <TextView
+           
            .
            .
             android:text="@{quote.author}"
