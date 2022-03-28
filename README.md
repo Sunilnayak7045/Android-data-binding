@@ -2,15 +2,16 @@
 
 
 android {
-    ...
+    .
+    .
     buildFeatures {
         dataBinding true
     }
 }
 -----------------------------------------------------------
-data ko views ke saath bind karna
+To bind the data with views
 
-data me kabhi bhi change hoga, views apne aap update ho jaayega
+any changes in data, then views will get automatically updated
 
 ---------------------------------------------------------
 <data>
@@ -28,5 +29,5 @@ variable of name quote of type Quotes class i.e data class
             android:text="@{quote.author}"
   />
 
-variable use karenge to bind the views
+variable(quote) are used to bind the views
 ---------------------------------------------------------
