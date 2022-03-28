@@ -2,8 +2,10 @@
 
 
 android {
+
     .
     .
+    
     buildFeatures {
         dataBinding true
     }
